@@ -10,6 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-
-- script: sudo ./deploy/scripts/build.sh
+- task: Bash@3
+  inputs:
+    filePath: './deploy/scripts/build.sh'
   displayName: 'Build'
