@@ -11,5 +11,5 @@ pool:
 
 steps:
 
-- script: ./deploy/scripts/build.sh
+- script: sudo ./deploy/scripts/build.sh
   displayName: 'Build'
